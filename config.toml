@@ -1,0 +1,14 @@
+baseURL = 'https://your-site.com/'
+languageCode = 'en-us'
+title = 'Documentation'
+theme = 'docsy'
+
+[params]
+description = 'Your documentation site'
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
